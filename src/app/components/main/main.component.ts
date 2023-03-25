@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {IProduct} from "../../interface/product";
 
 @Component({
   selector: 'app-main',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  title='Main';
+  @Input() product !: IProduct;
 }

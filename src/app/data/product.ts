@@ -1,4 +1,6 @@
-export const products = [
+import {IProduct} from "../interface/product";
+
+export const products: IProduct[] = [
   {
     id: 1,
     name: "Non sed incidunt dolor.",
@@ -8,19 +10,19 @@ export const products = [
     image: "http://placeimg.com/640/480/tech",
     images: [
       {
-        "title": "Et aut facilis et quia sit.",
-        "description": "Voluptatibus id sequi dicta quibusdam. Ipsam et earum non aliquam unde ut qui. Iure quia illo dolore ipsa maiores autem.",
-        "url": "http://placeimg.com/640/480/any"
+        title: "Et aut facilis et quia sit.",
+        description: "Voluptatibus id sequi dicta quibusdam. Ipsam et earum non aliquam unde ut qui. Iure quia illo dolore ipsa maiores autem.",
+        url: "http://placeimg.com/640/480/any"
       },
       {
-        "title": "In enim magni adipisci et.",
-        "description": "Quia nihil ipsum non et. Alias perspiciatis itaque similique. Enim quasi occaecati ducimus occaecati dolor vitae. Sit aut aperiam at.",
-        "url": "http://placeimg.com/640/480/any"
+        title: "In enim magni adipisci et.",
+        description: "Quia nihil ipsum non et. Alias perspiciatis itaque similique. Enim quasi occaecati ducimus occaecati dolor vitae. Sit aut aperiam at.",
+        url: "http://placeimg.com/640/480/any"
       },
       {
-        "title": "Officia dolorum error est.",
-        "description": "Ab dolorem accusantium sed id adipisci qui dolore. Harum placeat aut consectetur omnis. Reiciendis libero libero laudantium et quasi quo voluptatem ipsa.",
-        "url": "http://placeimg.com/640/480/any"
+        title: "Officia dolorum error est.",
+        description: "Ab dolorem accusantium sed id adipisci qui dolore. Harum placeat aut consectetur omnis. Reiciendis libero libero laudantium et quasi quo voluptatem ipsa.",
+        url: "http://placeimg.com/640/480/any"
       }
     ],
     net_price: 4510.63,
