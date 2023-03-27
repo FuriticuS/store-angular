@@ -1,7 +1,43 @@
 .header{
-  background: gray;
+  background: #ccc;
 
-  p{
-    color: #fff;
+  &-navigation{
+    display: flex;
+    height: 100%;
+
+    &__list{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100%;
+      list-style: none;
+
+      li{
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        background: #FFFFFF;
+        border: 1px solid #E21E32;
+        border-radius: 5px;
+
+        a{
+          padding: 5px 10px;
+          font-family: Arial, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 32px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #E21E32;
+          text-decoration: none;
+
+          &:hover {
+            color: #fff;
+            background: #E21E32;
+          }
+        }
+      }
+    }
   }
 }
